@@ -1,11 +1,75 @@
-.App {
+
+
+.head{
   text-align: center;
+  text-shadow: 3px 3px rgb(135, 194, 214);
+}
+body{
+  padding: 0px;
+  margin:0px;
+  width: 100%;
+  height: 96vh;
+  background-image:linear-gradient(to bottom, rgb(233, 93, 93),pink, rgb(122, 122, 236))
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.funbutton{
+  background-color: rgb(137, 218, 214);
+  padding: 20px;
+  border: 1px black solid;
+  border-radius: 18px;
+  margin-left: 25%; 
+  
 }
+.classbutton{
+  background-color: rgb(161, 209, 207);
+  padding: 20px;
+  border: 1px black solid;
+  border-radius: 18px;
+  margin-left: 8%;
+  
+  
+}
+.inner{
+  display: flex;
+  flex-direction: row;
+  
+}
+.funbox{
+  
+  width:335px;
+  text-align: center;
+  border: 1px solid black;
+  margin-top: 50px;
+   background-color: rgb(161, 209, 207);
+   border-radius: 18px;
+   padding: 7px;
+   margin-left: 20%;
+   float: left;
+   clear: left;
+   
+}
+.classbox{
+  
+  width:329px;
+  text-align: center;
+  border: 1px solid black;
+  margin-top: 50px;
+   background-color: rgb(161, 209, 207);
+   border-radius: 18px;
+   padding: 10px;
+   float: right;
+   margin-right: 22%;
+   
+  
+
+}
+
+
+
+
+
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
